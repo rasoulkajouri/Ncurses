@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Welcome to the Ncurses project's page
 
-You can use the [editor on GitHub](https://github.com/rasoulkajouri/Ncurses/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I would like to make a courses about the Ncurses package and also would like to talk with each other about the package.
+Moreover, you can find some explanation about each codes at the @kajothecoder page in Instagram. Of course, those videos are in persian languages.
+I sure you can find the best explanation about this package in English language in internet.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## How to run the Nncurses package
+First of all, you need to install this package on your system! Cuz this package is not a built-in library [standard library] for programming languages.
+Second, you can find it so easily in internet but I also put here a brief manual about installing it.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### GNU-Linux OS
+To install this package on your machine, you need only type the following commands
+#### Deb Base
+``` 
+sudo apt install libncurses5-dev libncursesw5-dev
+```
+You surely can find other version of ncurses in internet, but the maintend codes has been written and compiled under fifth version of Ncurses 
+#### RPM Base 
+```
+sudo yum install ncurses-devel
+```
+I compiled the codes with Ubuntu 20.04 LTS operating system and also G++ version 7.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## How to compile a code
+```
+[compiler name] [flags] [source files] -lncurses -o [name of executable version] 
+```
+For an example
+```
+g++ -Wextra -Werror -Wall -W -std=c++11 less-01.cpp -lncurses -o run
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+I suggest you to make a Makefile to compile your codes swift 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rasoulkajouri/Ncurses/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
