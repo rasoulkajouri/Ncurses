@@ -32,5 +32,3 @@ g++ -Wextra -Werror -Wall -W -std=c++11 less-01.cpp -lncurses -o run
 ```
 
 I suggest you to make a Makefile to compile your codes swift 
-
-
