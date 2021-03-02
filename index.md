@@ -1,12 +1,12 @@
 ## Welcome to the Ncurses project's page
 
 I would like to make a courses about the Ncurses package and also would like to talk with each other about the package.
-Moreover, you can find some explanation about each codes at the @kajothecoder page in Instagram. Of course, those videos are in persian languages.
+Moreover, you can find some explanation about each codes at the [@kajothecoder](https://www.instagram.com/kajothecoder/) page in Instagram. Of course, those videos are in persian languages.
 I sure you can find the best explanation about this package in English language in internet.
 
 
 ## How to run the Nncurses package
-First of all, you need to install this package on your system! Cuz this package is not a built-in library [standard library] for programming languages.
+First of all, you need to install this package on your system! Cuz this package is not a built-in library (**standard library**) for programming languages.
 Second, you can find it so easily in internet but I also put here a brief manual about installing it.
 
 ### GNU-Linux OS
