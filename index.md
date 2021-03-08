@@ -32,3 +32,10 @@ g++ -Wextra -Werror -Wall -W -std=c++11 less-01.cpp -lncurses -o run
 ```
 
 I suggest you to make a Makefile to compile your codes swift 
+
+I made a makefile for these code and I update it week by week, but you now need to know how you can compile each lesson by the given makefile
+to compile each lesson you need write the name of the lesson at the front of the "make" command, for more details follow the below
+```
+make less01
+```
+The above command starts the compiling process at the makefile's directory and creates an executable file which entited "run"
