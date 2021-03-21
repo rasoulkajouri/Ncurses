@@ -39,3 +39,8 @@ to compile each lesson you need write the name of the lesson at the front of the
 make less01
 ```
 The above command starts the compiling process at the makefile's directory and creates an executable file which entited "run"
+
+<hr>
+## The most important functions in NCurses
+To start coding in the Ncurses environment, you, firstly, need to call the Ncurses library in the header. ``` #include<ncurses.h>```. then, you have to initialize the Ncurses environment. To initialize this medium, you only need to call the following function.
+```initscr();````
