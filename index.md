@@ -44,5 +44,13 @@ The above command starts the compiling process at the makefile's directory and c
 
 ## The most important functions in NCurses
 
-To start coding in the Ncurses environment, you, firstly, need to call the Ncurses library in the header. ``` #include<ncurses.h>```. then, you have to initialize the Ncurses environment. To initialize this medium, you only need to call the following function.
-```initscr();````
+To start coding in the Ncurses environment, you, firstly, need to call the Ncurses library in the header. ``` #include<ncurses.h>```. then, you have to initialize the Ncurses environment. To initialize this medium, you only need to call the ```initscr();```. We, finally, must close this medium, when want to terminte the code, to do this aim you need call the ```endwin();``` function. So, the simplest form of the ncurses code is as like the below.
+
+```
+#include <ncurses.h>
+int main(){
+  initscr();
+  endwin();
+  return 0;
+}
+```
