@@ -56,4 +56,7 @@ int main(){
 ```
 
 As you can try, no event happens when you run this code! In fact, everything what you saw are correct and expectable, because you only opened the Ncurses environment and then colsed it, your code is nothing but a swift checkout on the ncurses environment!!. Anyway, we would like to earn a tangible experience from the Ncurses environment(env). Hence, you can write the ```getch();``` command in the middle of your code to pause the code. In fact, the main aim of the maintained commnad is not pausing a code, but we used it and this is a routine trick.
-####```getch();```
+
+#### ```getch();```
+
+The main aim of the command is getting an ```unsigned int``` character, this command stores a given character as a number in the RAM and this behavior is usefull for us, when we want to compare it with other important character in the ASCII table.
